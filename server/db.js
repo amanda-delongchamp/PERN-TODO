@@ -11,3 +11,5 @@ const pool = new Pool({
 });
 
 module.exports = pool;
+
+//to connect via cmd:  psql -h localhost -p 5433 -U postgres
