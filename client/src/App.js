@@ -4,8 +4,14 @@ import 'bootstrap/dist/css/bootstrap.min.js';
 
 import './App.css';
 
+//components
+
+import InputTodo from "./components/InputTodo";
 function App() {
-  return <Fragment></Fragment>;
+  return (<Fragment>
+    <InputTodo />
+  </Fragment>
+  );
   
 }
 
